@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+    <meta charset = "UTF-8">
+    <title>사용자 정의 함수</title>
+</head>
+<body>
+    <h1>시작해볼까요?</h1>
+    <p>let 변수를 활용하자!</p>
+    <script>
+
+        function calcSum(n) {
+            let sum = 0;
+            for(let i = 1; i < n + 1; i++){
+                sum += i;
+            }
+            sum = 100; // 변수 재할당
+            console.log(sum);
+        }
+        calcSum(100);
+
+        var x = 10;
+        function displayNumber(){
+            console.log("x is " + x);
+            console.log("y is " + y);
+            let y = 20;
+        }
+        displayNumber();
+    </script>
+</body>
+</html>

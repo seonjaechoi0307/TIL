@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+    <meta charset = "UTF-8">
+    <title>사용자 정의 함수</title>
+</head>
+<body>
+    <h1>시작해볼까요?</h1>
+    <p>코드 실행 전, 변수선언/함수선언이 해당 범위의 최상담으로 끌어 올려진 것 같은 현상</p>
+    <script>
+        
+        var x = 10;
+        function displayNumber() {
+            //var y; 생략 = hoisting 기능
+            console.log("x is " + x);
+            console.log("y is " + y); // 다른 언어에서는 에러 발생 ( Not Define )
+            var y = 20;
+        }
+        displayNumber();
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+    <meta charset = "UTF-8">
+    <title>사용자 정의 함수</title>
+    <style>
+        body {
+            padding-top : 30px;
+            text-align : center;
+        }
+        .accent {
+            font-weight : bold;
+            font-size : 1.2em;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <h1>시작해볼까요?</h1>
+    <p> 즉시 실행함수 </p>
+    <script>
+        (function(){
+            var userName = prompt("이름을 입력하세요 !!!");
+            document.write("안녕하세요? <span class='accent' > " + userName + "</span>님!");
+        }())
+    </script>
+</body>
+</html>

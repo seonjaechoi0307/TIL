@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+    <meta charset = "UTF-8">
+    <title>사용자 정의 함수</title>
+</head>
+<body>
+    <h1>시작해볼까요?</h1>
+    <p>변수의 재선언과 재할당</p>
+    <script>
+        // 자유도가 높으면 위험한 이유 = 코드가 작동 안되야 하지만 작동이 되어버림
+        function addNumber(num1, num2) {
+            return num1 + num2;
+        }
+        var sum = addNumber(10, 20);
+        console.log(sum);
+        sum = 50;
+        console.log(sum);
+        sum = 100;
+        console.log(sum);
+
+    </script>
+</body>
+</html>

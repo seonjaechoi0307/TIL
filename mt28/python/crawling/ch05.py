@@ -20,10 +20,12 @@ def crawler(url, com_code):
   response = requests.get(url, headers=headers)
   soup = BeautifulSoup(response.content, "html.parser")
   return url, soup
+
 def getLastPage(soup):
   # 여기가 핵심 포인트
   last_page = int(soup.select_one('td.pgRR').a['href'].split('=')[-1])
   return last_page
+
 def getData(url, com_code, soup, page):
     df = None
     count = 0
@@ -38,6 +40,7 @@ def getData(url, com_code, soup, page):
       count += 1
     data = df.dropna().reset_index(drop=True)
     return data
+
 def main():
     url = "https://finance.naver.com/item/sise_day.nhn?code="
     com_code = '005930' # 삼성전자 다른 종목을 이용할 때 활용
@@ -45,5 +48,6 @@ def main():
     last_page = getLastPage(soup)
     result = getData(com_url, com_code, soup, last_page)
     print(result)
+    
 if __name__ == "__main__":
     main()

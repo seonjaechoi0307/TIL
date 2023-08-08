@@ -11,3 +11,4 @@ requests
 beautifulsoup4
 fake-useragent
 lxml
+scrapy

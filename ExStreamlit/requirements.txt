@@ -1,0 +1,17 @@
+selenium
+webdriver-manager
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+plotly
+jupyterlab
+requests
+beautifulsoup4
+lxml
+scrapy
+scipy
+statsmodels
+gdown
+streamlit

@@ -19,3 +19,11 @@
     - Plotting
     - Power analysis
     - Reliability and consistency
+
+
+## ANOVA and T-test
+
+## 
+
+## 
+

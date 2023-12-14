@@ -89,7 +89,7 @@ T-test: 두 그룹 간 평균 차이를 평가하는 통계적 방법으로,
     데이터프레임의 열 간에 일대일로 비교하여 쌍체 T-검정을 수행하며,
     그룹 간 평균의 차이를 효과적으로 분석합니다.
 ```
-
+- - -
 ## Bayesian
 ```
 베이지안 통계(Bayesian Statistics):
@@ -97,6 +97,27 @@ T-test: 두 그룹 간 평균 차이를 평가하는 통계적 방법으로,
 확률을 '확신의 정도'로 해석하며, 사전 정보와 데이터를 결합하여 추론합니다.
 ```
 
+### Bayesian Statistical analysis
+```
+▣ bayesfactor_binom(k, n[, p, a, b]): Bayes factor of a binomial test with successes, trials and base probability
+
+    # bayesfactor_binom 분석 개요
+    이 함수는 이항 분포에 기반한 테스트의 Bayes Factor를 계산합니다.
+    성공 횟수, 시행 횟수, 그리고 기본 확률 등을 고려하여 이항 분포에 대한 테스트 결과의 강도를 측정합니다.
+
+▣ bayesfactor_ttest(t, nx[, ny, paired, ...]): Bayes Factor of a T-test.
+
+    # bayesfactor_ttest 분석 개요
+    이 함수는 T-검정에 대한 Bayes Factor를 계산합니다.
+    두 그룹 간 평균의 차이를 검정하며, 샘플 크기, 짝지어진(paired) 여부 등을 고려하여 결과의 강도를 측정합니다.
+
+▣ bayesfactor_pearson(r, n[, alternative, ...]): Bayes Factor of a Pearson correlation.
+
+    # bayesfactor_pearson 분석 개요
+    이 함수는 Pearson 상관관계에 대한 Bayes Factor를 계산합니다.
+    상관관계의 강도와 방향성에 대한 정보를 표본 크기와 함께 고려하여 제시합니다.
+```
+- - -
 ## Circular
 ```
 원형 통계(Circular Statistics):

@@ -128,7 +128,42 @@ T-test: 두 그룹 간 평균 차이를 평가하는 통계적 방법으로,
 
 ### Circular Statistical analysis
 ```
+▣ convert_angles(angles[, low, high, positive]): Element-wise conversion of arbitrary-unit circular quantities to radians.
 
+    임의의 단위로 표현된 각도를 라디안으로 변환하는 함수입니다.
+    각도를 주어진 범위 내에서 양의 방향으로만 변환할 수 있습니다.
+
+▣ circ_axial(angles, n): Transforms n-axial data to a common scale.
+
+    n-axial 데이터를 공통된 척도로 변환합니다.
+    각도 데이터를 주어진 척도에 맞추어 변환합니다.
+
+▣ circ_corrcc(x, y[, correction_uniform]): Correlation coefficient between two circular variables.
+
+    두 원형 변수 간의 상관 계수를 계산합니다.
+    두 원형 변수의 상관 관계를 측정하며, uniformity correction을 적용할 수 있습니다.
+
+▣ circ_corrcl(x, y): Correlation coefficient between one circular and one linear variable random variables.
+
+    하나는 원형 변수이고 다른 하나는 선형 변수인 두 변수 간의 상관 계수를 계산합니다.
+
+▣ circ_mean(angles[, w, axis]): Mean direction for (binned) circular data.
+
+    (구간화된) 원형 데이터의 평균 방향을 계산합니다.
+    가중치를 고려할 수 있습니다.
+
+▣ circ_r(angles[, w, d, axis]): Mean resultant vector length for circular data.
+
+    원형 데이터의 평균 결과 벡터의 길이를 계산합니다.
+    가중치를 고려할 수 있습니다.
+
+▣ circ_rayleigh(angles[, w, d]): Rayleigh test for non-uniformity of circular data.
+
+    원형 데이터의 비균일성을 위한 Rayleigh 검정을 수행합니다.
+
+▣ circ_vtest(angles[, dir, w, d]): V test for non-uniformity of circular data with a specified mean direction.
+
+    주어진 평균 방향을 가진 원형 데이터의 비균일성을 검정하는 V 테스트를 수행합니다.
 ```
 - - -
 ## Contingency

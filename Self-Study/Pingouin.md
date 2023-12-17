@@ -175,7 +175,6 @@ Contingency Table Analysis:
 
 ### Contingency Statistical analysis
 ```
-
 ▣ chi2_independence(data, x, y[, correction]): Chi-squared independence tests between two categorical variables.
     두 개의 범주형 변수 간의 카이제곱 독립성 검정을 수행합니다.
     이를 통해 두 변수 간의 관련성이 있는지를 통계적으로 평가할 수 있습니다.
@@ -189,7 +188,6 @@ Contingency Table Analysis:
     이분형 데이터를 0 또는 1로 변환하여 교차표를 만들어줍니다.
 
 ```
-
 - - -
 ## Correlation and regression
 ```

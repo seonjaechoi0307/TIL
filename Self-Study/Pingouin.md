@@ -298,7 +298,7 @@ Contingency Table Analysis:
 그룹 간 비교에서 발생하는 유의성을 조정하고 추가적인 분석을 수행하는 통계적 방법입니다.
 ```
 
-## Multiple comparisons Statistical analysis
+### Multiple comparisons Statistical analysis
 ```
 ▣ pairwise_corr(data[, columns, covar, ...]): Pairwise (partial) correlations between columns of a pandas dataframe.
     Pandas DataFrame의 열 간 (부분) 상관관계를 쌍으로 계산합니다.
@@ -350,7 +350,7 @@ Contingency Table Analysis:
 비모수적 방법(Non-parametric Methods):
 모집단의 분포에 대한 가정을 하지 않고 데이터를 분석하는 방법입니다.
 ```
-## Non-parametric Statistical analysis
+### Non-parametric Statistical analysis
 ```
 ▣ cochran([data, dv, within, subject]): Cochran Q test.
     Cochran Q 검정을 수행합니다.

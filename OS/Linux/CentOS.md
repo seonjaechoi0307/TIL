@@ -9,3 +9,4 @@ CentOS는 상용시장에서 가장 인정받는 리눅스 중 하나인 Redhat 
 
 # Reference
 ![참고 카페](http://cafe.naver.com/thisislinux)
+![참고 유튜브 재생목록 이것이 리눅스다.](http://www.youtube.com/HanbitMedia93)

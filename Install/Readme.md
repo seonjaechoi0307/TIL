@@ -3,3 +3,4 @@
 # 실무로 배우는 빅데이터 기술
 
 ## Use Tools
+- VMware

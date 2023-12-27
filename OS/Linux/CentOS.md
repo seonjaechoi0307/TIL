@@ -22,6 +22,7 @@ CentOS는 상용시장에서 가장 인정받는 리눅스 중 하나인 Redhat 
 - VMware(http://www.vmware.com)
 
 > VMware Workstation과 VMware Player 비교
+
 | 구분\제품 | VMware Workstation 9.0.x | VMware Player 5.0.x |
 |:---------|:-----------:|:-----------:|
 | 호스트 운영체제      | 모든 32비트, 64비트 Windows        | 모든 32비트, 64비트 Windows        |
